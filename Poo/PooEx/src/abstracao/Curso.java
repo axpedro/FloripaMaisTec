@@ -4,23 +4,23 @@ import java.util.ArrayList;
 
 public class Curso {
 
-    public String Nome;
-    public String Descricao;
+    public String nome;
+    public String descricao;
 
-    public ArrayList<String> Professores;
+    public ArrayList<String> professores;
 
-    public int CargaHoraria;
+    public int cargaHoraria;
 
-    public  void  Progresso(){
+    public  void  progresso(){
 
-      System.out.println("Mostrtar progresso");
+      System.out.println("Mostrar progresso");
 
     }
-    public void Notas(){
+    public void notas(){
         System.out.println("Mostrar notas");
 
     }
-    public void Participacao(){
+    public void participacao(){
         System.out.println("Mostrar participacao");
     }
 

@@ -1,12 +1,12 @@
 package abstracao;
 
 public class Professor {
-    public String Nome;
+    public String nome;
 
-    public String Especialidade;
+    public String especialidade;
 
-    public void Ensinar(){
-        System.out.println("Ensinando");
+    public void ensinar(){
+        System.out.println("O professor" + nome + " da "+especialidade  +  " está ensinando");
 
     }
 
